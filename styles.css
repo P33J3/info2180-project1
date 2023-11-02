@@ -99,8 +99,8 @@ img {
     display: grid;
     grid-template-columns: 3fr 3fr 3fr;
     grid-gap: 20px;
-    height: 30vh;
     height: 40vh;
+    padding-bottom: 35px;
 }
 
 .card {
@@ -122,3 +122,153 @@ img {
     height: 50%;
     padding-left: 15px;
 }
+
+.testing {
+    background-color: #4A5568;
+    color: white;
+
+}
+
+.testing .container {
+    display: flex;
+   align-items: center;
+    justify-content: space-around;
+    height: 30vh;
+
+}
+
+.testing-description {
+    width: 60%;
+}
+
+.testing-description h2 {
+    padding-bottom: 25px;
+}
+
+.cta {
+    background-color: #48BB78;
+    border-radius: 5px;
+    height: 50px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cta a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.stories img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+
+}
+
+.stories .container article:nth-child(2) img {
+    object-fit: cover;
+    object-position: 90% 40%;
+}
+
+.stories .container article:nth-child(3) img {
+    object-fit: cover;
+    object-position: 50% 40%;
+}
+
+.stories {
+    padding: 100px 0;
+}
+
+.stories article
+{
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+    height: 300px;
+    align-content: center;
+
+}
+
+.stories .article-body {
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*align-content: space-around;*/
+    /*grid-row: span 2;*/
+
+}
+
+.stories .article-body h3 {
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+
+.stories .article-body p {
+    padding: 15px 0;
+}
+
+.stories .article-body a {
+    text-decoration: none;
+    color: #5A67D8;
+}
+
+.stories h2 {
+    color: #5A67D8;
+}
+
+.newsletter {
+    background-color: #48BB78;
+    color: white;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.newsletter .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 70%;
+}
+
+.newsletter h3 {
+    font-size: 18px;
+}
+
+.newsletter p {
+    width: 45%;
+}
+
+.newsletter .form-group {
+    display: inline;
+
+}
+
+.newsletter input {
+    height: 50px;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.newsletter form button {
+    background-color: #5A67D8;
+    color: white;
+    display: inline;
+    height: 50px;
+    border-radius: 5px;
+    width: 150px;
+}
+
+footer {
+    background-color: #4A5568;
+    color: white;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
