@@ -236,6 +236,15 @@ img {
     height: 70%;
 }
 
+.newsletter .message {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+
 .newsletter h3 {
     font-size: 18px;
 }
